@@ -41,4 +41,6 @@ function generatePromises(e) {
 
     currentDelayForTimeOut += Number(step);
   }
+
+  e.currentTarget.reset();
 }
